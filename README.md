@@ -1,7 +1,7 @@
 # Microsoft Visual C++ Redistributable Packages
 
-> [!NOTE]
-> More information you can find on Microsoft [documentation](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
+> [!OBSERVAÇÃO]
+> Mais informações você pode encontrar na Microsoft [documentation](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
  
 ## Microsoft Visual C++ 2005 Redistributable Package
   * [x64](https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE) *8.0.61000 (EOL)* `Microsoft.VCRedist.2005.x64`<br>
@@ -22,16 +22,16 @@
   * [x64](https://aka.ms/vs/17/release/VC_redist.x64.exe) *always lastest permalink (14.38.33135)* `Microsoft.VCRedist.2015+.x64` <br>
   * [x86](https://aka.ms/vs/17/release/VC_redist.x86.exe) *always lastest permalink (14.38.33135)* `Microsoft.VCRedist.2015+.x86` <br>
 
-> [!TIP]
-> You can install all Visual C++ Redistributable Packages using only one command with winget! https://gist.github.com/ChuckMichael/d4221fd8681a7e962c8d37d623ff3145
-
-  > [!WARNING]
-> [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) must be installed on Win10/11.
+  > [!AVISO]
+> [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1) deve ser instalado no Win10/11.
+> 
+> [!DICA]
+> Você pode instalar todos os pacotes redistribuíveis do Visual C++ usando apenas um comando abaixo
 
 ## CMD
 
-> [!TIP]
-> You can save it and run as batch file (.bat).
+> [!DICA]
+> Você pode salvá-lo e executá-lo como arquivo em lote (.bat).
 
 ```batch
 winget install --id=Microsoft.VCRedist.2005.x86 -e  && winget install --id=Microsoft.VCRedist.2005.x64 -e  && winget install --id=Microsoft.VCRedist.2008.x86 -e  && winget install --id=Microsoft.VCRedist.2008.x64 -e  && winget install --id=Microsoft.VCRedist.2010.x86 -e  && winget install --id=Microsoft.VCRedist.2010.x64 -e  && winget install --id=Microsoft.VCRedist.2012.x86 -e  && winget install --id=Microsoft.VCRedist.2012.x64 -e  && winget install --id=Microsoft.VCRedist.2013.x86 -e  && winget install --id=Microsoft.VCRedist.2013.x64 -e  && winget install --id=Microsoft.VCRedist.2015+.x86 -e  && winget install --id=Microsoft.VCRedist.2015+.x64 -e 
